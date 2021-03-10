@@ -60,3 +60,28 @@ width = 800
 </p>
 
 ----
+
+## Braistorming notes
+
+### include nblocks.h
+`#include "nlib\nblocks.h"` becomes `#include "nlib\KernelNode\nblocks`
+
+This change in the main.cpp can be avoided by leaving the `nblocks.h` inside the `studio2.0/kernel` directory and changing its content from:
+
+```cpp
+#include "mbed.h"
+#include "nworkbench.h"
+```
+
+to
+
+```cpp
+#include "mbed.h"
+#include "KernelNode/nworkbench.h"
+```
+
+### Removing from main.cpp the lines that instantiate the KernelNode as a Node
+
+An updated command-line-tool is need: 2 options proposed:  
+1) Update the command line tool to 'trap' the name 'KernelNode': Simple but not elegant
+2) the node.json for the Kernel Node to have a 'flag' indicating it is a Kernel Node and an updated command-line-tool that detects the flag. This allows any name to be used for the KernelNode 
