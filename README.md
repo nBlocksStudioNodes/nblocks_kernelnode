@@ -1,4 +1,4 @@
-# [KernelNode](https://github.com/nBlocksStudioNodes)
+# [KernelNode](https://github.com/nBlocksStudioNodes/nblocks_kernelnode)
 
 This Node is the firmware kernel for n-Blocks Studio 2.0
 
