@@ -82,6 +82,21 @@ to
 
 ### Removing from main.cpp the lines that instantiate the KernelNode as a Node
 
-An updated command-line-tool is need: 2 options proposed:  
-1) Update the command line tool to 'trap' the name 'KernelNode': Simple but not elegant
+An updated command-line-tool (studio2.0_experimental) is needed: 2 options proposed:  
+1) Update the command line tool to 'trap' the name 'KernelNode': Simple but not elegant. [implemented and tested in a branch] :heavy_check_mark:
 2) the node.json for the Kernel Node to have a 'flag' indicating it is a Kernel Node and an updated command-line-tool that detects the flag. This allows any name to be used for the KernelNode 
+
+### Testing with new `kernelnode` branch of studio2.0_experimental
+
+No need for manual updates on main.cpp. The project can be compiled directly after `Translation`
+
+ * Automatically generated code is Compiled successfully and runs without manual editing :heavy_check_mark:
+ * Created and tested: New [studio2.0_experimental](https://github.com/nblocksStudio/studio2.0_experimental/tree/KernelNode)  branch, named: `KernelNode` :heavy_check_mark:
+
+ <p align="center">
+<img
+src="img/04.PNG"
+width = 800
+/>
+</p>
+
