@@ -64,7 +64,7 @@ width = 800
 ## Braistorming notes
 
 ### include nblocks.h
-`#include "nlib\nblocks.h"` becomes `#include "nlib\KernelNode\nblocks`
+`#include "nlib\nblocks.h"` becomes `#include "nlib\KernelNode\nblocks.h`
 
 This change in the main.cpp can be avoided by leaving the `nblocks.h` inside the `studio2.0/kernel` directory and changing its content from:
 
