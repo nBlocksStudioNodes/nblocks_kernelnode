@@ -92,6 +92,7 @@ No need for manual updates on main.cpp. The project can be compiled directly aft
 
  * Automatically generated code is Compiled successfully and runs without manual editing :heavy_check_mark:
  * Created and tested: New [studio2.0_experimental](https://github.com/nblocksStudio/studio2.0_experimental/tree/KernelNode)  branch, named: `KernelNode` :heavy_check_mark:
+ * The `KernelNode` branch is merged to master after pull-request :white_check_mark:
 
  <p align="center">
 <img
